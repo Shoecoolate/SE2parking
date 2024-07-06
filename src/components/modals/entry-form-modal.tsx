@@ -121,7 +121,7 @@ const EntryFormModal = () => {
                         vehicleType === "car"
                           ? /^[A-Z]{3}-\d{4}$/
                           : /^\d{3}-[A-Z]{3}$/,
-                      message: "DDD-LLLL for cars & LLL-DDD for motorcyles",
+                      message: "LLL-DDDD for cars & DDD-LLL for motorcyles",
                     },
                   })}
                   variant={"filled"}
@@ -133,7 +133,7 @@ const EntryFormModal = () => {
                   </FormErrorMessage>
                 ) : (
                   <FormHelperText>
-                    DDD-LLLL for cars & DDD-LL for motorcyles
+                    LLL-DDDD for cars & DDD-LLL for motorcyles
                   </FormHelperText>
                 )}
               </FormControl>
